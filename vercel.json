@@ -1,11 +1,7 @@
+
 {
-  "version": 2,
-  "builds": [],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/index.html"
-    }
+  "rewrites": [
+    { "source": "/reserver", "destination": "/pages/reserver.jsx" },
+    { "source": "/admin", "destination": "/pages/admin.jsx" }
   ]
 }
-
